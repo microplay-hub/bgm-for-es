@@ -11,7 +11,7 @@ class MusicPlayer:
     def __init__(self) -> None:
         mixer.init()
         self._is_paused = False
-        self._maxvolume = 0.75
+        self._maxvolume = 0.50
         self._volume = self._maxvolume
         self._volume_fadespeed = 0.02
 
