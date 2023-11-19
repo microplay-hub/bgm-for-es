@@ -1,5 +1,5 @@
 # Value (in seconds) to delay audio start.  If you have a splash screen with audio and the script is playing music over the top of it, increase this value to delay the script from starting.
-startdelay: 0
+startdelay: 30
 
 # The directory where you will place your music in .mp3 or .ogg format
 musicdir: ~/RetroPie/musics
