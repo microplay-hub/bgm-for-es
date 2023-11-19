@@ -72,7 +72,7 @@ once you start the `esbgm` script for the first time) contains the following con
 startdelay: 0
 
 # The directory where you will place your music in .mp3 or .ogg format
-musicdir: ~/RetroPie/music
+musicdir: ~/RetroPie/musics
 
 # Whether the music should restart upon unpausing or resume
 # from where it was left out.
@@ -80,7 +80,7 @@ restart: true
 startsong:
 
 # The main process. Upon starting this process, the music will start playing...
-mainprocess: emulationstatio
+mainprocess: emulationstation
 
 # unless one of these processes is running, then the music will fade out
 # until only the mainprocess is running again
