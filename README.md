@@ -24,7 +24,7 @@ Enter the RetroPie console (you can reach it by pressing the F4 key when Emulati
 is running) and run the following commands:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Rydra/bgm-for-es/main/scripts/install-esbgm.py | python3 -
+curl -sSL https://raw.githubusercontent.com/microplay-hub/bgm-for-es/main/scripts/install-esbgm.py | python3 -
 ```
 
 After installing, reboot the machine:
@@ -36,7 +36,7 @@ sudo reboot
 ## Uninstalling BGM for EmulationStation
 
 ```
-curl -sSL https://raw.githubusercontent.com/Rydra/bgm-for-es/main/scripts/install-esbgm.py > install-esbgm.py
+curl -sSL https://raw.githubusercontent.com/microplay-hub/bgm-for-es/main/scripts/install-esbgm.py > install-esbgm.py
 python3 install-esbgm.py --uninstall
 ```
 
