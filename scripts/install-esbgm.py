@@ -35,7 +35,7 @@ def is_decorated():
         return False
 
 
-DEFAULT_MUSIC_FOLDER = Path(os.path.expanduser("~/RetroPie/roms/music"))
+DEFAULT_MUSIC_FOLDER = Path(os.path.expanduser("~/RetroPie/roms/musics"))
 AUTOSTART_RETROPIE_PATH = Path("/opt/retropie/configs/all/autostart.sh")
 
 
