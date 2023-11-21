@@ -128,7 +128,7 @@ def create_default_music_folder():
     print("OK")
 
 
-DEFAULT_MENU_OPTIONS_FOLDER = Path(os.path.expanduser("~/RetroPie/retropiemenu-nxt/"))
+DEFAULT_MENU_OPTIONS_FOLDER = Path(os.path.expanduser("~/RetroPie/retropiemenu/"))
 DISABLE_BACKGROUND_MUSIC = Path(DEFAULT_MENU_OPTIONS_FOLDER, "Disable background music.sh")
 ENABLE_BACKGROUND_MUSIC = Path(DEFAULT_MENU_OPTIONS_FOLDER, "Enable background music.sh")
 
